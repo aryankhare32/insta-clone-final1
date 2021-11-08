@@ -6,13 +6,13 @@ const crypto = require("crypto");
 const bcrypt = require("bcryptjs")
 const jwt = require("jsonwebtoken");
 const {JWT_SECRET} = require("../config/keys");
+const {SENDGRID_API} = require("../config/keys")
 const requireLogin = require("../middleware/requireLogin");
 const nodemailer = require("nodemailer");
 const sendgridTransport = require("nodemailer-sendgrid-transport");
-// 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
 const transporter = nodemailer.createTransport(sendgridTransport({
     auth:{
-        api_key:"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"
+        api_key:"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"
     }
 }))
 
