@@ -12,7 +12,7 @@ const nodemailer = require("nodemailer");
 const sendgridTransport = require("nodemailer-sendgrid-transport");
 const transporter = nodemailer.createTransport(sendgridTransport({
     auth:{
-        api_key:"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"
+        api_key:SENDGRID_API
     }
 }))
 
