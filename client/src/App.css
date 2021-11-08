@@ -41,3 +41,6 @@ a{
 .material-icons:hover{
 cursor:pointer;
 }
+.collection-item{
+  width:100%;
+}
